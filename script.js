@@ -8,14 +8,14 @@ const slideshowImg = document.getElementById('slideshow-img');
 
 // --- போட்டோஸ் லிஸ்ட் (photos ஃபோல்டருக்குள் இருக்க வேண்டும்) ---
 const photos = [
-    'photos/p1.jpg',
-    'photos/p2.jpg',
-    'photos/p3.jpg',
-    'photos/p4.jpg',
-    'photos/p5.jpg',
-    'photos/p6.jpg',
-    'photos/p7.jpg',
-    'photos/p8.jpg',
+    'p1.jpg',
+    'p2.jpg',
+    'p3.jpg',
+    'p4.jpg',
+    'p5.jpg',
+    'p6.jpg',
+    'p7.jpg',
+    'p8.jpg',
 ];
 
 let currentIndex = 0;
@@ -83,4 +83,5 @@ function createLoveShower() {
 const styleSheet = document.createElement("style");
 styleSheet.innerText = `
 @keyframes fall { to { transform: translateY(110vh); opacity: 0; } }`;
+
 document.head.appendChild(styleSheet);
